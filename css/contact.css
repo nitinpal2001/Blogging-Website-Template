@@ -1,0 +1,58 @@
+.contact-content{
+    height: 79vh;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 34px 159px;
+    position: relative;
+    
+}
+.contact-content::after{
+    content: "";
+    background-image: url("../img/background-img.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    background-size: cover;
+    width: 132%;
+    height: 100%;
+    position: absolute;
+    top: -37px;
+    left: -235px;
+    z-index: -1;
+}
+.content-form{
+    display: flex;
+    align-items: center;
+    z-index: 4;
+}
+.form-box{
+    width: 75%;
+    z-index: inherit;
+}
+.form-box input{
+    width: 42vw;
+    font-size: 1rem;
+    padding: 2px 2px;
+    margin: 7px 1px;
+    border-radius: 4px;
+}
+.form-box textarea{
+    padding: 2px 11px;
+    width: 41vw;
+    font-size: 1rem;
+    margin: 7px 0px;
+    border-radius: 6px;
+    border: 2px solid black;
+    padding: 7px
+}
+
+
+
+/* .contact-background{
+    background: rgba(255,245,148, 0.8) url("../img/contact-img.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background
+} */

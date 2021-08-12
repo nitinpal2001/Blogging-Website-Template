@@ -1,0 +1,91 @@
+.posts-img{
+height: 25%;
+}
+
+.posts-img img{
+    width: 27vw;
+    height: 54vh;
+    /* background-size: contain; */
+    z-index: -1;
+    position: relative;
+    top: 17px;
+    margin: auto;
+    display: block;
+}
+
+.video-blogger{
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    margin: auto;
+}
+
+.video-blogger div{
+   background-color: red;
+   height: 6px;
+   top: -2vh;
+}
+
+
+.video-blogger h1{
+    text-align: center;
+    width: 73%;
+    margin: auto;
+    font-size: 2.6rem;
+}
+.video-blogger :nth-child(1){
+    height: 0px;
+}
+.video-blogger :nth-child(3){
+    margin-top: 9%;
+}
+
+.social-icons{
+    
+    cursor: pointer;
+    
+}
+
+.video-blogger p{
+
+    /* text-align: center; */
+    width: 73%;
+    margin: auto;
+    font-size: 1.3rem;
+    
+}
+
+.head-tag :nth-child(2){
+    position: absolute;
+    top: 70vh;
+}
+.head-tag :nth-child(3){
+    position: absolute;
+    top: 49vh;
+}
+p>strong{
+    align-self: flex-start;
+    font-size: 1.6rem;
+}
+ 
+.home-articles{
+    display: flex;
+    flex-direction: row;
+}
+
+.home-articles img{
+    width: 58%;
+}
+
+.home-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-article div{
+    text-align: center;
+}
+
+
+    

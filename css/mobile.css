@@ -1,0 +1,105 @@
+@media screen and (max-width: 865px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 9px;
+        margin-left: 4%;
+    }
+    .nav-left {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+       width: 100%;
+       margin-left: 15%;
+    }
+    .content::after{
+        width: 68%;
+    }
+    .content-right{
+        display: none;
+    }
+    .content-left{
+        width: 100%;
+        margin-left: -4%;
+    }
+    .footer{
+        width: 100vw;
+        height: 91px;
+    }
+    /* #con-footer{
+        width: 100vw;
+    } */
+    .hr-rsp{
+        width: 90%;
+        margin-left: -9px;
+    }
+    .contact-form{
+        margin-left: -18vh;
+    }
+    .form-box input{
+        width: 51vw !important;
+    }
+    .posts-img img{
+        width: 97vw!important;
+        height: 45vh!important;
+    }
+    #lower-bar{
+        top: 13vh;
+        position: relative;
+    }
+    #lower-bar-2{
+        top: 10vh;
+        position: relative;
+    }
+    .video-blogger p{
+        position: relative;
+        top: 14vh;
+    }
+    .video-blogger h1{
+        font-size: 1.5rem !important;
+    }
+    .head-tag :nth-child(2) {
+        top: 74vh !important;
+    }
+    .head-tag :nth-child(3) {
+        position: absolute;
+        top: 65vh !important;
+    }
+    .video-blogger :nth-child(1) {
+        position: relative;
+        top: 4vh;
+    }
+    #articles-gap{
+        padding-top: 1vh;
+        height: 19vh;
+    }
+    .home-article {
+        height: 38vh;
+    }
+    .home-article div{
+        width: 47vw;
+    }
+    #sim-blogs{
+        top: 14vh;
+    position: relative;
+    }
+    .blog-rsp{
+        height: 58vh !important;
+    }
+    .blogs-rsp{
+        display: flex;
+        flex-direction: column !important;
+    }
+    #articles-rsp{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-rsp{
+        position: absolute;
+    top: 266vh;
+    height: 18vh;
+    }
+    #para-rsp-2{
+        width: 45vh;
+    }
+}

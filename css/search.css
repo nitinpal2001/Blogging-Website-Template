@@ -1,0 +1,9 @@
+.home-articles{
+    flex-direction: column;
+}
+/* #article-rsp{
+    align-items: flex-start;
+} */
+.home-articles img {
+    width: 17%;
+}

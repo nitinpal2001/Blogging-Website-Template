@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&family=Roboto+Condensed&display=swap');
+:root{
+    --main-bg-color: rgb(255 245 148);
+    --font-1:'Roboto Condensed', sans-serif;
+    --font-2:'Baloo Paaji 2', cursive;
+}
+.font-1{
+    font-family: var(--font-1);
+}
+.font-2{
+    font-family: var(--font-2);
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.anchor-text{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 4px 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    margin-left: 4px;
+    transition: 0.3s ease-in;
+}
+
+/* nav{
+    position: fixed;
+} */
+
+.margin-left{
+    margin-left: 10%;
+}
+
+.font-size-1{
+    font-size: 1.1rem;
+}
+
+.social-icons{
+    width: 28px;
+}
